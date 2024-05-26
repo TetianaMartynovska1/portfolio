@@ -1,0 +1,27 @@
+.about-section {
+  background-color: var(--color-brand-grey);
+}
+.about-section__container {
+  display: flex;
+  gap: 104px;
+  align-items: center;
+}
+.about-section__description-container {
+  flex-direction: column;
+  display: flex;
+  gap: 48px;
+}
+.about-section__description {
+  font-family: Epilogue;
+  font-size: 17px;
+  line-height: 27px;
+  margin: 0;
+}
+.about-section__title {
+  display: flex;
+  font-family: Epilogue;
+  font-size: 68px;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}

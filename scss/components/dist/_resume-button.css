@@ -1,0 +1,8 @@
+.resume-button {
+  background-color: var(--color-primary-red);
+  padding: 24px 64px;
+  font-family: Epilogue;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 30px;
+}

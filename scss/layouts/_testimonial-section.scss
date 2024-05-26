@@ -1,0 +1,48 @@
+.testimonial-section {
+  background-color: var(--color-brand-grey);
+  &__container {
+    display: flex;
+    gap: 24px;
+  }
+  &__article {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-brand-dark);
+    flex: 1;
+    padding: 42px;
+    gap: 68px;
+  }
+  &__description {
+    color: var(--color-brand-white);
+    font-weight: 600;
+    line-height: 30px;
+    font-family: Epilogue;
+    font-size: 20px;
+  }
+  &__person-details {
+    display: flex;
+    gap: 11px;
+    &--name {
+      color: var(--color-brand-white);
+      margin: 0;
+      font-family: Epilogue;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 30px;
+    }
+    &--company {
+      color: var(--color-brand-white);
+      margin: 0;
+      font-family: Epilogue;
+      line-height: 27px;
+    }
+  }
+  &__person-img-container {
+    max-width: 50px;
+    height: auto;
+    width: 100%;
+  }
+  &__person-img {
+    width: 100%;
+  }
+}

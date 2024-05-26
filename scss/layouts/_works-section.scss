@@ -1,0 +1,45 @@
+.works-section {
+  background-color: var(--color-brand-grey);
+  &__container {
+    display: flex;
+    width: 100%;
+    gap: 24px;
+  }
+  &__article {
+    width: 100%;
+    flex: 1;
+    &:hover {
+      padding: 5px;
+      border: 2px solid var(--color-brand-grey);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    &:hover + .project-button {
+      display: block;
+    }
+  }
+  &__img {
+    width: 100%;
+    height: auto;
+  }
+  &__project-title {
+    font-family: Epilogue;
+    font-size: 20px;
+    color: var(--color-brand-dark);
+    font-weight: 600;
+    line-height: 30px;
+    margin: 24px 0 0 0;
+  }
+  &__description {
+    font-family: Epilogue;
+    font-size: 17px;
+    line-height: 27px;
+    margin: 0;
+    text-align: justify;
+  }
+  &__address-link {
+    list-style: none;
+    text-decoration: none;
+    color: var(--color-brand-red);
+    font-weight: 800;
+  }
+}

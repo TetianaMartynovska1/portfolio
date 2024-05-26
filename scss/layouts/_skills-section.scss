@@ -1,0 +1,7 @@
+.skills-section {
+  background-color: var(--color-brand-grey);
+  &__container {
+    display: flex;
+    gap: 24px;
+  }
+}
